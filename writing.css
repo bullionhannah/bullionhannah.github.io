@@ -1,59 +1,74 @@
-<!DOCTYPE html>
-<html>
-  <head>
+a:link {
+    text-decoration: none;
+    color: black;
+}
 
- <br></br>
-    
-<div id="navcontainer">
-<span class="left">
-	<a href="#home">HANNAH BULLION</a>
-</span>
-<span class="right">
-	<ul id="nav">
-		<li><a href="#about">ABOUT </a></li> |
-		<li><a href="#resume">RESUME</a></li> |
-		<li><a href="#writing">WRITING</a></li> |
-<li><a href="#work">WORK</a></li> |
-		<li><a href="#contact">CONTACT</a></li> 
-	</ul>
-</span>
-</div>
-</head>
+a:visited {
+    text-decoration: none;
+}
 
-<br><br> 
+a:hover {
+    text-decoration: none;
+    color: grey;
+}
 
+a:active {
+    text-decoration: grey;
+}
 
-<body>
+body {
+	margin: 0;
+	padding: 0;
+	background-color: white;
+	font-family: Arial-Black, sans-serif;
+	font-size: 1em
+}
 
-<br><BR><BR>
- <br><BR><BR>
-  
-<div id="writing">
-<span class="left">
-  
-  WRITING EXAMPLES  </div></span>
-  <br><BR><BR><br><BR><br> 
-  
-  
-  <div id="examples">
-    
-      
-      
-<ul style="list-style-type:disc">
-  <li><a href="http://www.collegefashionista.com">CollegeFashionista</a></li>
-  <ul> 
-   <li><a href="http://www.collegefashionista.com/what-to-wear-winter-205/">WHAT TO WEAR: Winter</a></li>
-  <li><a href=”http://www.collegefashionista.com/style-guru-style-menswear-3/”>STYLE GURU STYLE: Menswear</a>
-    <li><a href=”http://www.collegefashionista.com/style-guru-bio-hannah-bullion-2/”>STYLE GURU BIO: Hannah Bullion</a> </li>
-    <li><a href=”http://www.collegefashionista.com/style-guru-style-pop-of-parisian/”>STYLE GURU STYLE: Pop Of Parisian</a> </li>
-    <li><a href=”http://www.collegefashionista.com/beauty-bar-vamped-lips/”>BEAUTY BAR: Vamped Lips</a></li></ul>
+#navcontainer {
+	font-size: 0.8em;
+}
+
+span.left {
+	float: left;
+	display: block;
+	width: 50%;
+	padding-left: 20px;
+  font-family: Arial Black, sans-serif;
+  font-color: white;
+	font-size: 3.2em;
+}
+
+span.right {
+	float: right;
+	display: block;
+	width: 45%;
+	text-align: right;
+  font-color: white;
+  font-family: Arial, sans-serif;
+	font-size: 1.1em;
+}
+
+#nav {
+	margin: 0;
+	padding: 0;
+}
+
+#nav li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0 10px;
+	display: inline;
+}
+
+#writing {
    
-  </li>
-  <li>VIM Magazine</li>
-</ul>
+  padding-left: 20px;
+  font-size: 15px;
+  font-family: arial-black, sans serif;
+}
+
+#examples {
+  padding-left: 400px;
+   
   
-      </div></span>
- 
-  
-</body>
-</html>
+}
