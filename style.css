@@ -5,6 +5,25 @@ selector{
 }
 */
 
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: grey;
+}
+
+a:active {
+    text-decoration: grey;
+}
+
 
 body{
 
